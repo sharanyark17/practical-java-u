@@ -62,7 +62,7 @@ public class CarServiceImpl implements CarService {
 		String randomColor = COLORS.get(random.nextInt(COLORS.size()));
 		String randomType = TYPES.get(random.nextInt(TYPES.size()));
 		
-		Car car = new Car(randomBrand, randomColor, randomType);
+		Car car = new Car(randomBrand, randomColor, randomType); // return car for getAttributes
 		
 		car.setAvailable(random.nextBoolean());
 		car.setPrice(5000+random.nextInt(7001));

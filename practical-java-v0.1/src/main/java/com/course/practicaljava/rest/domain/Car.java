@@ -49,6 +49,8 @@ public class Car {
 	@JsonInclude(value = Include.NON_EMPTY)
 	private String secretFeature;
 	
+	
+	
 	public Car()
 	{
 		
